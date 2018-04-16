@@ -1,0 +1,20 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Examples to explain webpack functionality",
+  "main": "bundle.js",
+  "scripts": {
+    "build-00": "webpack --config webpack-configs/00-default/webpack.config.js",
+    "build-01": "webpack --config webpack-configs/01-with-babel/webpack.config.js",
+    "build-02": "webpack --config webpack-configs/02-with-babel-uglifyjs/webpack.config.js",
+    "build-03": "webpack --config webpack-configs/03-with-babel-native-uglifyjs/webpack.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  }
+}
